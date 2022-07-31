@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-image: url("./assets/judge.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 175px;
+}
+
+nav{
+    display: flex;
+    background-color: #2B2922;
+    padding: 20px 100px 0px 100px;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    background-color: #2B2922;
+    padding: 80px 90px;
+}
+
+.logo {
+    flex: 2;
+}
+
+
+.list {
+    display: flex;
+    flex: 2;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.list-item {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.button {
+    flex: 1;
+}
+
+.button button {
+    background-color:#2B2922;
+    color: #918233;
+    border: 1px solid #918233;
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 9px;
+}
+
+.head {
+    flex:6;
+}
+
+.head h1 {
+    font-size: 80px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+main .para {
+    flex:4;
+}
+
+.para p {
+    font-size: 25px;
+    color: #FFFFFF;
+    text-align: left;
+}
